@@ -1,0 +1,28 @@
+/* 1. Decendant combinator Selector */
+ul li a{
+    color: pink;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* 2. child combinator selector */
+ol > li{
+    background-color: yellow;
+}
+
+/* 3. Adjacent Combinator Selector */
+h3+p{
+    color: brown;
+    border-top:2px solid blue
+}
+
+p+div{
+    color: violet;
+    background-color: green;
+}
+
+/* 4. General sibling combinator selector */
+div~p{
+    color: cadetblue;
+    font-size: 30px;
+}
