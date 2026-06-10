@@ -1,0 +1,40 @@
+/* 1. Universal selector- *     */
+
+*{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* 2.Id selector: */
+
+#heros{
+    color:red;
+    border: 2px solid green;
+}
+
+/* 3.class selector */
+
+.app{
+    color: brown;
+    text-decoration: line-through;
+    font-weight:800
+}
+
+/* 4.element selector: */
+p{
+    background-color: pink;
+}
+
+/* 5. Atribute Selector */
+input[type="email"]{
+    background-color: orange;
+}
+
+[type="text"]{
+    background-color:aqua;
+}
+
+[placeholder="password"]{
+    background-color:yellow;
+}
+
