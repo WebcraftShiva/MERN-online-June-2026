@@ -1,0 +1,49 @@
+body{
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+#container{
+    background-color: skyblue;
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    display: flex;
+
+    /* 1. flex-direction */
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+
+    /* 2. justify-content: */
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* justify-content: flex-end; */
+
+    /* 3. flex-wrap */
+    /* flex-wrap: wrap;
+    flex-wrap: nowrap; */
+    flex-wrap: wrap-reverse;
+
+    /* 4 align-items*/
+
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+} 
+
+
+.items{
+    height: 50px;
+    width: 50px;
+}
