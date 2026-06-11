@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    border: 2px solid pink;
+}
+
+div{
+    margin: 20px 50px 50px;
+    padding: 30px 20px 50px;
+}
