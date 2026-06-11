@@ -1,0 +1,65 @@
+/* 1. center: controls the horizontal alignment of text */
+
+.main{
+    text-align:center;
+}
+
+/* 2. inherit: takes the value from the parent element */
+h1{
+    /* text-align: inherit; */
+    /* text-align: left; */
+    /* text-align: right; */
+}
+
+p{
+    text-align: justify;
+}
+
+/* 3. text-decoration and text-decoration-style */
+a{
+    /* text-decoration:underline; */
+    /* text-decoration:line-through; */
+    /* text-decoration:overline; */
+    /* text-decoration:none; */
+    /* text-decoration-color:brown; */
+    /* text-decoration-style:double; */
+    /* text-decoration-style:dashed; */
+    /* text-decoration-style:wavy; */
+    /* text-decoration-color: brown; */
+
+}
+
+/* 4.text-transform: */
+h2{
+    color: green;
+    background-color: pink;
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+}
+
+/* 5.other properties: */
+h4{
+    word-spacing: 10px; /* add space btw words*/
+    letter-spacing: 5px; /* add space btw letters*/
+    text-indent: 50px;
+}
+
+h3{
+    text-shadow: 8px 4px 15px rgba(rgb(167, 126, 126), green, blue, alpha); 
+    /* 8px- move shadow to its right
+        4px- move shadow to its down
+        15px- blur shadow
+        blue- shadow color
+    */
+    /* color: aqua; */
+    /* color: transparent; */
+    /* background-color: transparent; */
+    opacity: 0.5 /* 
+    0- compeletly invisible, 
+    1 for complete visible  
+    */
+}
+
+
+
