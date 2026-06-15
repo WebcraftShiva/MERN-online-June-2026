@@ -41,7 +41,7 @@ i{
 }
 
 #container{
-    width: 800vw;
+    width: 80vw;
     margin: 20px auto;
     display: grid;
     grid-auto-rows: 200px;
