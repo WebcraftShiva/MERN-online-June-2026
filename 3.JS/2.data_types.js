@@ -35,3 +35,23 @@ let id = Symbol("id1");
 console.log(typeof id);
 
 // 2. Non-primitive(3): object,array, function
+
+// 2.1: object: it keeps realted information in the form of key(name,age,what i do) values(shivam, 25, i am a senior software engineer) pairs
+let objectValue = {
+  name: "shivam",
+  age: 25,
+  "what i do": "I am a senior software engineer",
+};
+console.log(objectValue);
+// 2.2: array: It keeps multiple values in an variable, values can be of different/same type which is not possible in other programming languages. As, they suppose same short of values only
+
+let age = ["apple", 23, 3.5];
+// printMessage();
+console.log(age);
+
+
+
+// 2.3: function:
+function printMessage() {
+  console.log("function is working");
+}
