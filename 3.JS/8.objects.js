@@ -17,30 +17,39 @@
 //   },
 // };
 
-// B.4: object inside an array:
-let products = [
-  {
-    name: "Iphone",
-    price: 120000,
-  },
-  {
-    name: "Earbuds",
-    price: 15000,
-  },
-  {
-    name: "Ipad",
-    price: 60000,
-  },
-  {
-    name: "Washing Machine",
-    price: 15000,
-  },
-  {
-    name: "AC",
-    price: 40000,
-  },
-];
-console.log(products[3].price);
+// B.5: Merge object:
+obj1 = { name1: "kanav", age: 24 };
+obj2 = { name2: "yash", age: 25 };
+
+// obj3 = { ...obj1, ...obj2 };
+// console.log(obj3);
+obj4 = Object.assign(obj1, obj2);
+console.log(obj4);
+
+// // B.4: object inside an array:
+// let products = [
+//   {
+//     name: "Iphone",
+//     price: 120000,
+//   },
+//   {
+//     name: "Earbuds",
+//     price: 15000,
+//   },
+//   {
+//     name: "Ipad",
+//     price: 60000,
+//   },
+//   {
+//     name: "Washing Machine",
+//     price: 15000,
+//   },
+//   {
+//     name: "AC",
+//     price: 40000,
+//   },
+// ];
+// console.log(products[3].price);
 
 // // B.3: Nested object:
 // let student = {
