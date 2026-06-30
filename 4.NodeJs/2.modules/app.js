@@ -14,9 +14,12 @@
 // const student1 = require("./student/student");
 // const student2 = require("./student/student1");
 // const student3 = require("./student/student2");
-const req = require("./students");
-console.log(req);
-console.log(req[0].name);
+// const req = require("./students");
+// console.log(req);
+// console.log(req[0].name);
 // console.log(req.student1);
 // console.log(req.student2);
 // console.log(req.student3);
+
+import { student1, student2 } from "index.js";
+console.log(student1);
