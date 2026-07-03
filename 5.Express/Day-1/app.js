@@ -9,16 +9,31 @@ console.log(app); // app-> express: object which has lot of methods and propetie
 // });
 
 // app.send: send request to the server:
+// app.use((req, res) => {
+//   console.log("Request receive");
+//   //   res.send("This is a basic response");
+//   //   res.send({
+//   //     name: "shiva",
+//   //     age: 25,
+//   //   });
+//   let html =
+//     "<h1>Learning Express</h1><ul>Super Hero's<li>Iron Man</li><li>Batman</li></ul>";
+//   res.send(html);
+// });
+app.get("/", (req, res) => {
+  res.send("This is a root path");
+});
+
+app.get("/contact", (req, res) => {
+  res.send("This is a contact path");
+});
+
+app.get("/about", (req, res) => {
+  res.send("This is a about path");
+});
+
 app.use((req, res) => {
-  console.log("Request receive");
-  //   res.send("This is a basic response");
-  //   res.send({
-  //     name: "shiva",
-  //     age: 25,
-  //   });
-  let html =
-    "<h1>Learning Express</h1><ul>Super Hero's<li>Iron Man</li><li>Batman</li></ul>";
-  res.send(html);
+  res.status(404).send("Please hit the correct route");
 });
 
 // listen: 2 argument:
