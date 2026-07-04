@@ -23,6 +23,15 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/rollDice", (req, res) => {
+  let diceval = Math.floor(Math.random() * 6 + 1);
+  res.render("rollDice", { num: diceval });
+});
+
+app.get("/luckyNumber", (req, res) => {
+  res.render("luckyNumber");
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on ${PORT}`);
 });

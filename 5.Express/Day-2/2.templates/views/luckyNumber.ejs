@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Number</title>
+</head>
+
+<body>
+    <% let randomNum=Math.floor(Math.random()*6+1)%>
+        <h1>Your Number: <%=randomNum%>
+        </h1>
+        <%if(randomNum==3){%>
+            <h2>🎉You got the Lucky Number</h2>
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWV4NTV0dTBpZjUzaGpwcG00N3VoNHhvZWRuc2lybGx0c25taW95dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/4xpB3eE00FfBm/giphy.gif"
+                alt="winner">
+            <%}else{%>
+                <h2>😭 Not a lucky person ! Try Again</h2>
+                <%}%>
+</body>
+
+</html>
