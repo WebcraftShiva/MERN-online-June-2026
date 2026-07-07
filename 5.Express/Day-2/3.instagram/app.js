@@ -47,6 +47,12 @@ const instaData = {
   },
 };
 
+app.get("/", (req, res) => {
+  res.send(
+    "<h1>This is a root page please give /instagram to check instagram page</h1>",
+  );
+});
+
 app.get("/instagram/:username", (req, res) => {
   const { username } = req.params;
 
