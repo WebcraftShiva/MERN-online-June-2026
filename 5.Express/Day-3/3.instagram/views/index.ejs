@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <h1>Data Entries of People</h1>
+    <% for(let data of dataa ) { %>
+        <div class="data">
+            <h3 class="users">@<%= data.username%>
+            </h3>
+            <h3 class="job">
+                <%= data.job %>
+            </h3>
+            <%}%>
+</body>
+
+</html>
